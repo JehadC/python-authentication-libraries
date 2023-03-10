@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="static/dashboard.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Dashboard</a></li>
+				<!--<li><a href="#">Profile</a></li>-->
+				<!--<li><a href="#">Settings</a></li>-->
+				<!--<li><a href="#">Help</a></li>-->
+				<li><a href="{{url_for('login')}}">Logout</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Welcome to your Dashboard</h1>
+		<p>Here you can see all of your important information and perform various tasks.</p>
+	</main>
+</body>
+</html>
